@@ -1,0 +1,201 @@
+﻿<!DOCTYPE HTML >
+<html>
+<head>
+ <title>Duplicates Found</title>
+ <link href="styles/ShowDuplicates.css" rel="stylesheet" />
+ <script src="../jQuery/jquery_1.9.1.min.js"></script>
+ <script src="../../ClientGlobalContext.js.aspx" type="text/javascript"></script>
+ <script src="scripts/ShowDuplicateTests.js"></script>
+</head>
+<body>
+ <div style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 44px;">
+  <div class="sdk-sample-Dialog-Header">
+   <div title="Potential Duplicate Tests Detected"
+    class="sdk-sample-Dialog-Header-Title sdk-sample-TextAutoEllipsis"
+    id="DlgHdTitle" style="width: calc(100% - 95px) !important;">
+    Potential Duplicate Tests Detected
+ 
+   </div>
+
+   <div title="This test may be a duplicate of the tests below."
+    class="sdk-sample-Dialog-Header-Desc" id="DlgHdDesc">
+    This test may be a duplicate of the tests below.
+   </div>
+   <div style="margin-top: 10px; position: relative; overflow-x: hidden;">
+    <div class="sdk-sample-ListArea-FixedRow" id="fixedrow" style="margin-left: 0px;">
+     <table class="sdk-sample-List-Header" id="crmGrid_gridBar" cellspacing="0" cellpadding="0">
+      <colgroup id="crmGrid_gridBarCols">
+       <!--Name Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+       <!--Spacer-->
+       <col width="2" />
+       <!--Account Header Column-->
+       <col width="100" class="sdk-sample-List-DataColumnHeader" />
+       <!--Spacer-->
+       <col width="2" />
+       <!--Bool  Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+       <!--Spacer-->
+       <col width="2" />
+       <!--Date  Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+       <!--Spacer-->
+        <col width="2" />
+       <!--Decimal  Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+         <!--Spacer-->
+        <col width="2" />
+       <!--Double  Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+         <!--Spacer-->
+        <col width="2" />
+       <!--Integer  Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+         <!--Spacer-->
+        <col width="2" />
+       <!--Memo  Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+         <!--Spacer-->
+        <col width="2" />
+       <!--Money  Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+         <!--Spacer-->
+        <col width="2" />
+       <!--OptionSet  Header Column-->
+       <col width="50" class="sdk-sample-List-DataColumnHeader" />
+       <!--Spacer-->
+       <col />
+      </colgroup>
+      <tbody>
+       <tr style="height: 24px;">
+         <!-- Name Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+          <label title="Name" class="sdk-sample-List-Sortable">Name</label>                
+         </nobr>
+        </th>
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--Account  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="Account" class="sdk-sample-List-Sortable">Account</label>                         
+         </nobr>
+        </th>
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--Bool  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="Bool" class="sdk-sample-List-Sortable">Bool</label>                         
+         </nobr>
+        </th>
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--Date  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="Date" class="sdk-sample-List-Sortable">Date</label>                         
+         </nobr>
+        </th>
+
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--Decimal  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="Decimal" class="sdk-sample-List-Sortable">Decimal</label>                         
+         </nobr>
+        </th>
+
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--Double  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="Double" class="sdk-sample-List-Sortable">Double</label>                         
+         </nobr>
+        </th>
+
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--Integer  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="Integer" class="sdk-sample-List-Sortable">Integer</label>                         
+         </nobr>
+        </th>
+
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--Memo  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="Memo" class="sdk-sample-List-Sortable">Memo</label>                         
+         </nobr>
+        </th>
+
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--Money  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="Bool" class="sdk-sample-List-Sortable">Money</label>                         
+         </nobr>
+        </th>
+
+        <!--Spacer-->
+        <td>
+         <img class="sdk-sample-List-ResizeBar sdk-sample-ImageStrip-resize"
+          src="images/resize.png" />
+        </td>
+        <!--OptionSet  Header Column-->
+        <th class="sdk-sample-List-Sortable" scope="col">
+         <nobr class="sdk-sample-DataCell">
+           <label title="OptionSet" class="sdk-sample-List-Sortable">OptionSet</label>                         
+         </nobr>
+        </th>
+
+
+        <!--Spacer-->
+        <td></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+  </div>
+  <div class="sdk-sample-Dialog-Main" id="DlgHdBodyContainer"></div>
+ </div>
+ <div class="sdk-sample-Dialog-Footer" id="crmDialogFooter">
+  <div class="sdk-sample-Dialog-Footer-Right">
+   <button tabindex="51" class="sdk-sample-Dialog-Button" id="btnSave" style="margin-left: 8px;" type="button">Save Anyway</button>
+   <button tabindex="52" class="sdk-sample-Dialog-Button" id="btnCancel" style="margin-left: 8px;" type="button">Cancel</button>
+  </div>
+ </div>
+</body>
+</html>

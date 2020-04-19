@@ -1,0 +1,7 @@
+﻿false,
+"sample_duplicatedetecttest", 
+"sample_duplicatedetecttestid", 
+["sample_name","sample_account","sample_bool","sample_date","sample_decimal","sample_double","sample_integer","sample_memo",
+"sample_money","sample_optionset"],
+"sample_/duplicateDetection/ShowDuplicateTests.html",
+"dialogHeight: 250px; dialogWidth: 800px; resizable: yes; status: no;"

@@ -1,0 +1,6 @@
+﻿false,
+"lead", 
+"leadid", 
+["subject","fullname", "firstname", "lastname","emailaddress1","address1_city"],
+"sample_/duplicateDetection/ShowDuplicateLeads.html",
+"dialogHeight: 250px; dialogWidth: 650px;resizable: yes; status: no;"

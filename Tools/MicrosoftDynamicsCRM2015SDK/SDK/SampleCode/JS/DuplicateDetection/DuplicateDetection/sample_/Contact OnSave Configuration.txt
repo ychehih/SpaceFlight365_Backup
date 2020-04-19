@@ -1,0 +1,6 @@
+﻿false,
+"contact", 
+"contactid", 
+["fullname", "firstname", "lastname","emailaddress1"],
+"sample_/duplicateDetection/ShowDuplicateContacts.html",
+"dialogHeight: 250px; dialogWidth: 600px;resizable: yes; status: no;"
