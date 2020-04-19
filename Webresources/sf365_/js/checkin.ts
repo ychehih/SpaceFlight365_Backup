@@ -9,6 +9,7 @@ namespace sf365.chekin
         }
 
         public foo() {
+            // some comments
             alert("foo");
         }
 
